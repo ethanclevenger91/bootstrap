@@ -248,6 +248,8 @@ As part of Bootstrap's evolving CSS variables approach, buttons now use local CS
 
 {{< scss-docs name="btn-css-vars" file="scss/_buttons.scss" >}}
 
+Each `.btn-*` modifier class updates the appropriate CSS variables to minimize additional CSS rules with our `button-variant()`, `button-outline-variant()`, and `button-size()` mixins.
+
 ### Sass variables
 
 {{< scss-docs name="btn-variables" file="scss/_variables.scss" >}}
